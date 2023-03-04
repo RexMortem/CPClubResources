@@ -1,3 +1,10 @@
+# For this exercise, you will have to know *ListComprehension*
+# there is a resource on the site
+
+# Ideally, know iterable objects (for x in List: print(x) type stuff)
+# Know that range(n) returns an iterable object containing integers from 0 to just less than n
+# Know how list comprehension can use these ideas
+
 def OptimalSolution(x,y,z,n):
     List = [[i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if (i+j+k != n)] # Using fundamentals of list comprehension, fast 
     
