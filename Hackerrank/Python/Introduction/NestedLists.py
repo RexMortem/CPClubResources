@@ -1,3 +1,5 @@
+# can write a solution using sets to eliminate the number of Smallest values (or repeated Smallests)
+
 if __name__ == '__main__':
     Names = []
     Scores = []
