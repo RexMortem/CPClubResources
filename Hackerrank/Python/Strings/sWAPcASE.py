@@ -15,6 +15,9 @@ def swap_case(s): # procedural way
 def swap_case_functional(s): # functional way 
     return "".join(map(SwapCharacter, s))
 
+def SquishedSolution(s):
+    return "".join([c.upper() if c.islower() else c.lower() for c in s])
+
 if __name__ == '__main__':
     s = input()
     result = swap_case(s)
